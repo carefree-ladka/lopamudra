@@ -1,5 +1,29 @@
 export const GlobalStyles: React.FC = () => (
   <style>{`
+    * {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    body {
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    @media (max-width: 640px) {
+      .animate-float {
+        animation: float 3s ease-in-out infinite;
+      }
+    }
+
     @keyframes heartbeat {
       0%,
       100% {
@@ -85,6 +109,18 @@ export const GlobalStyles: React.FC = () => (
 
     .animate-slide-in-right {
       animation: slide-in-right 0.7s ease-out forwards;
+    }
+
+    /* Mobile-specific optimizations */
+    @media (max-width: 768px) {
+      .animate-heartbeat {
+        animation: heartbeat 2s ease-in-out infinite;
+      }
+      
+      button {
+        min-height: 44px;
+        min-width: 44px;
+      }
     }
   `}</style>
 );

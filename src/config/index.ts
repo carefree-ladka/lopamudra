@@ -27,6 +27,26 @@ const messages = [
     message: "Every moment we've shared has been precious, Lopamudra. From our book discussions to our movie marathons, from our inside jokes to our comfortable silences—each memory is a treasure. You make ordinary days extraordinary just by being yourself. Your presence in my life has brought so much joy, laughter, and love.",
   },
   {
+    title: "Your Bengali Magic ✨",
+    message: "Lopamudra, I swear you've done some Bengali jadoo on me! The way you speak, your cultural richness, your traditions—everything about your Bengali heritage makes you even more enchanting. When you talk about your favorite Bengali books or share stories from your culture, I fall in love with you all over again. You're my beautiful Bengali princess! 👑",
+  },
+  {
+    title: "My Wifeyy Forever 💍",
+    message: "Lopamudra, calling you my 'wifeyy' isn't just cute—it's how I see our future. I dream of a lifetime with you, sharing morning teas, reading books together on lazy Sundays, and growing old while still laughing at each other's jokes. You're not just my girlfriend; you're my future wife, my partner, my everything. I want to spend forever making you happy.",
+  },
+  {
+    title: "Your Adorable Quirks 🥰",
+    message: "Lopamudra, I love all your little quirks! The way you get excited about plot twists, how you dramatically react to romantic scenes, your cute expressions when you're thinking deeply about something. Even the way you argue about which book character is better—it's all so endearing. These little things make you uniquely you, and I cherish every single one.",
+  },
+  {
+    title: "Our Future Dreams 🌈",
+    message: "I dream about our future together, Lopamudra. I see us traveling to new places, building a library of books we've read together, maybe even writing our own love story. I imagine cozy evenings where we're both reading different books but stealing glances at each other. I want to create a beautiful life with you, filled with love, laughter, and endless adventures.",
+  },
+  {
+    title: "You Complete Me 💖",
+    message: "Before you, Lopamudra, I didn't know what it meant to feel complete. You've filled spaces in my heart I didn't even know were empty. Your love has made me whole, your presence has brought peace to my chaos, and your smile has become my favorite sight in the world. You're not just part of my life—you ARE my life.",
+  },
+  {
     title: "This Valentine's Day 💝",
     message: "Lopamudra, I'm here with my heart wide open, asking you to be my Valentine. Not just for today, but for all the days to come. I want to share more books with you, watch more romcoms together, create more inside jokes, and build beautiful memories. You're amazing, and I'd be the luckiest person in the world if you'd be mine. Will you be my Valentine, Lopamudra? 🌹",
   }
@@ -99,6 +119,6 @@ export const CONFIG: ValentineConfig = {
     particleCount: 1000,
     confettiPieces: 400,
     messageDelay: 1000,
-    complimentDuration: 56000,
+    complimentDuration: 96000,
   },
 };
