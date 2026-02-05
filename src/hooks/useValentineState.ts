@@ -4,7 +4,7 @@ import { useValentineStore } from '../store/valentineStore';
 
 export const useComplimentProgression = () => {
   const { showCompliments, currentCompliment, nextCompliment } = useValentineStore();
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const timerRef = useRef<number | null>(null);
   const isPausedRef = useRef(false);
 
   const startTimer = () => {
