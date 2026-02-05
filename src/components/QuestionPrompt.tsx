@@ -3,7 +3,10 @@ import { CONFIG } from "../config";
 import { useValentineStore } from "../store/valentineStore";
 
 export const QuestionPrompt: React.FC = () => {
-  const { showMessage, handleYesClick } = useValentineStore();
+  const { showMessage, saidYes, handleYesClick } = useValentineStore();
+  
+  if (saidYes) return null;
+  if (!showMessage) return null;
 
   const moveMaybeButton = (element: HTMLButtonElement) => {
     const rect = element.getBoundingClientRect();
